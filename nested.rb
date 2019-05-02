@@ -81,8 +81,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-		 newly-added-to.merge(
-		  :yukihiro_matsumoto => {
+		 newly-added-to.merge[:yukihiro_matsumoto] = {
 		    :known_for => "Ruby",
 		     :languages => ["LISP", "C"]
 		  	}
