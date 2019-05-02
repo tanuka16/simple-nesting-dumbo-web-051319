@@ -70,7 +70,7 @@ def adding_matz
 # }
 
 	programmer_hash =
- 		{
+ 		{ 																#operates on the programmer_hash and adds a key/value pair to the top level of the hash, returning the newly-added-to hash
 				:yukihiro_matsumoto => {
 					:known_for => "Ruby",
 					:languages => ["LISP", "C"]
