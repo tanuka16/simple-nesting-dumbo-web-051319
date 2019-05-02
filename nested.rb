@@ -132,8 +132,9 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-		 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-#programmer_hash[:dennis_ritchie][:languages].push ("Assembly")
+		 #operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash
+		 #programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+programmer_hash[:dennis_ritchie][:languages].push ("Assembly")
 
 programmer_hash
 end
