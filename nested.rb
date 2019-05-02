@@ -68,7 +68,7 @@ newly-added-to = {
  :yukihiro_matsumoto => {
    :known_for => "Ruby",
     :languages => ["LISP", "C"]
- }
+ 	}
  }
 
 	programmer_hash =
