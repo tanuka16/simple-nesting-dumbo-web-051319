@@ -58,6 +58,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+		 #operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string
 		 programmer_hash[:dennis_ritchie][:languages]='C'
 end
 
