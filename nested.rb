@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-	#hash_name[:keynames]	 
+	#hash_name[:keynames]
 programmer_hash[:grace_hopper]												# returns the value of the :grace_hopper key-- hash_name[:keynames]
 
 end
@@ -39,7 +39,7 @@ def alan_kay_is_known_for
         }
      }
 end
-
+programmer_hash[:alan_kay]
 def dennis_ritchies_language
 	programmer_hash =
  		{
