@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-programmer_hash[:grace_hopper]
+programmer_hash[:grace_hopper]												# returns the value of the :grace_hopper key
 
 end
 
